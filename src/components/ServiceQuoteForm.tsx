@@ -301,7 +301,7 @@ const ServiceQuoteForm: React.FC<ServiceQuoteFormProps> = ({
 
   return (
     <Card className="w-full max-w-lg mx-auto bg-background">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} id="bdb-main-form">
         <div className="p-4">
           <Progress value={progress} className="h-2" />
           <div className="mt-2 text-center text-sm text-muted-foreground">
