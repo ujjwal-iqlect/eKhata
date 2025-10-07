@@ -77,7 +77,8 @@ const ServiceQuoteForm: React.FC<ServiceQuoteFormProps> = ({
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if ((window as any)?.bdbForm) {
+    console.log({ window })
+    if (typeof window !== "undefined") {
       (window as any).bdbForm(e, 'CONTACT_US', {
         type: '',
         value: 'CONTACT_US',
