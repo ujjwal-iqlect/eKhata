@@ -1,24 +1,16 @@
-import {
-  ResizableHandle,
-  ResizablePanel,
-  ResizablePanelGroup,
-} from "../components/ui/resizable";
+import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from '../components/ui/resizable';
 
-const meta= {
-  title: "ui/ResizablePanelGroup",
+const meta = {
+  title: 'ui/ResizablePanelGroup',
   component: ResizablePanelGroup,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
 export const Base = {
   render: (args: any) => (
-    <ResizablePanelGroup
-      {...args}
-      direction="horizontal"
-      className="max-w-md rounded-lg border"
-    >
+    <ResizablePanelGroup {...args} direction="horizontal" className="max-w-md rounded-lg border">
       <ResizablePanel defaultSize={50}>
         <div className="flex h-[200px] items-center justify-center p-6">
           <span className="font-semibold">One</span>
@@ -42,5 +34,5 @@ export const Base = {
       </ResizablePanel>
     </ResizablePanelGroup>
   ),
-  args: {},
+  args: {}
 };

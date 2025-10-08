@@ -1,4 +1,4 @@
-import { Button } from "../components/ui/button";
+import { Button } from '../components/ui/button';
 import {
   Drawer,
   DrawerClose,
@@ -7,14 +7,14 @@ import {
   DrawerFooter,
   DrawerHeader,
   DrawerTitle,
-  DrawerTrigger,
-} from "../components/ui/drawer";
+  DrawerTrigger
+} from '../components/ui/drawer';
 
 const meta = {
-  title: "ui/Drawer",
+  title: 'ui/Drawer',
   component: Drawer,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -36,5 +36,5 @@ export const Base = {
       </DrawerContent>
     </Drawer>
   ),
-  args: {},
+  args: {}
 };

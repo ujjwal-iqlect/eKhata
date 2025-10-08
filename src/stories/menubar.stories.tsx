@@ -12,14 +12,14 @@ import {
   MenubarSub,
   MenubarSubContent,
   MenubarSubTrigger,
-  MenubarTrigger,
-} from "../components/ui/menubar";
+  MenubarTrigger
+} from '../components/ui/menubar';
 
 const meta = {
-  title: "ui/Menubar",
+  title: 'ui/Menubar',
   component: Menubar,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -81,9 +81,7 @@ export const Base = {
         <MenubarTrigger>View</MenubarTrigger>
         <MenubarContent>
           <MenubarCheckboxItem>Always Show Bookmarks Bar</MenubarCheckboxItem>
-          <MenubarCheckboxItem checked>
-            Always Show Full URLs
-          </MenubarCheckboxItem>
+          <MenubarCheckboxItem checked>Always Show Full URLs</MenubarCheckboxItem>
           <MenubarSeparator />
           <MenubarItem inset>
             Reload <MenubarShortcut>⌘R</MenubarShortcut>
@@ -113,9 +111,9 @@ export const Base = {
       </MenubarMenu>
     </Menubar>
   ),
-  args: {},
+  args: {}
 };
 
 {
-  (" ");
+  (' ');
 }

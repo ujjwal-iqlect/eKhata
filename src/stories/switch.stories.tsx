@@ -1,12 +1,12 @@
 // [build] library: 'shadcn'
-import { Label } from "../components/ui/label";
-import { Switch } from "../components/ui/switch";
+import { Label } from '../components/ui/label';
+import { Switch } from '../components/ui/switch';
 
 const meta = {
-  title: "ui/Switch",
+  title: 'ui/Switch',
   component: Switch,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -17,5 +17,5 @@ export const Base = {
       <Label htmlFor="airplane-mode">Airplane Mode</Label>
     </div>
   ),
-  args: {},
+  args: {}
 };

@@ -5,16 +5,16 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-} from "../components/ui/navigation-menu";
+  NavigationMenuTrigger
+} from '../components/ui/navigation-menu';
 
-import { MoonIcon } from "@radix-ui/react-icons";
+import { MoonIcon } from '@radix-ui/react-icons';
 
 const meta = {
-  title: "ui/NavigationMenu",
+  title: 'ui/NavigationMenu',
   component: NavigationMenu,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -34,12 +34,9 @@ export const Base = {
                       href="/"
                     >
                       <MoonIcon className="h-6 w-6" />
-                      <div className="mb-2 mt-4 text-lg font-medium">
-                        shadcn/ui
-                      </div>
+                      <div className="mb-2 mt-4 text-lg font-medium">shadcn/ui</div>
                       <p className="text-sm leading-tight text-muted-foreground">
-                        Beautifully designed components built with Radix UI and
-                        Tailwind CSS.
+                        Beautifully designed components built with Radix UI and Tailwind CSS.
                       </p>
                     </a>
                   </NavigationMenuLink>
@@ -48,17 +45,14 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs"
                       title="Introduction"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Introduction
-                      </div>
+                      <div className="text-sm font-medium leading-none">Introduction</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Re-usable components built using Radix UI and Tailwind
-                        CSS.
+                        Re-usable components built using Radix UI and Tailwind CSS.
                       </p>
                     </a>
                   </NavigationMenuLink>
@@ -67,14 +61,12 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/installation"
                       title="Installation"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Installation
-                      </div>
+                      <div className="text-sm font-medium leading-none">Installation</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
                         How to install dependencies and structure your app.
                       </p>
@@ -85,14 +77,12 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/primitives/typography"
                       title="Typography"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Typography
-                      </div>
+                      <div className="text-sm font-medium leading-none">Typography</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
                         Styles for headings, paragraphs, lists...etc
                       </p>
@@ -110,17 +100,15 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/primitives/alert-dialog"
                       title="Alert Dialog"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Alert Dialog
-                      </div>
+                      <div className="text-sm font-medium leading-none">Alert Dialog</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        A modal dialog that interrupts the user with important
-                        content and expects a response.
+                        A modal dialog that interrupts the user with important content and expects a
+                        response.
                       </p>
                     </a>
                   </NavigationMenuLink>
@@ -129,17 +117,14 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/primitives/alert-dialog"
                       title="Hover Card"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Hover Card
-                      </div>
+                      <div className="text-sm font-medium leading-none">Hover Card</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        For sighted users to preview content available behind a
-                        link.
+                        For sighted users to preview content available behind a link.
                       </p>
                     </a>
                   </NavigationMenuLink>
@@ -148,17 +133,15 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/primitives/alert-dialog"
                       title="Progress"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Progress
-                      </div>
+                      <div className="text-sm font-medium leading-none">Progress</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        Displays an indicator showing the completion progress of
-                        a task, typically displayed as a progress bar.
+                        Displays an indicator showing the completion progress of a task, typically
+                        displayed as a progress bar.
                       </p>
                     </a>
                   </NavigationMenuLink>
@@ -167,14 +150,12 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/primitives/alert-dialog"
                       title="Scroll-area"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Scroll-area
-                      </div>
+                      <div className="text-sm font-medium leading-none">Scroll-area</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
                         Visually or semantically separates content.
                       </p>
@@ -185,17 +166,15 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/primitives/alert-dialog"
                       title="Alert Dialog"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Tabs
-                      </div>
+                      <div className="text-sm font-medium leading-none">Tabs</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        A set of layered sections of content—known as tab
-                        panels—that are displayed one at a time.
+                        A set of layered sections of content—known as tab panels—that are displayed
+                        one at a time.
                       </p>
                     </a>
                   </NavigationMenuLink>
@@ -204,18 +183,15 @@ export const Base = {
                   <NavigationMenuLink asChild>
                     <a
                       className={
-                        "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground'
                       }
                       href="/docs/primitives/alert-dialog"
                       title="Tooltip"
                     >
-                      <div className="text-sm font-medium leading-none">
-                        Tooltip
-                      </div>
+                      <div className="text-sm font-medium leading-none">Tooltip</div>
                       <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                        A popup that displays information related to an element
-                        when the element receives keyboard focus or the mouse
-                        hovers over it.
+                        A popup that displays information related to an element when the element
+                        receives keyboard focus or the mouse hovers over it.
                       </p>
                     </a>
                   </NavigationMenuLink>
@@ -232,5 +208,5 @@ export const Base = {
       </NavigationMenu>
     );
   },
-  args: {},
+  args: {}
 };

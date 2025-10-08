@@ -1,29 +1,29 @@
 // [build] library: 'shadcn'
-import { Button } from "../components/ui/button";
-import { Label } from "../components/ui/label";
-import { Textarea } from "../components/ui/textarea";
+import { Button } from '../components/ui/button';
+import { Label } from '../components/ui/label';
+import { Textarea } from '../components/ui/textarea';
 
 const meta = {
-  title: "ui/Textarea",
+  title: 'ui/Textarea',
   component: Textarea,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
 export const Default = {
   render: (args: any) => <Textarea {...args} />,
   args: {
-    placeholder: "Type your message here.",
-  },
+    placeholder: 'Type your message here.'
+  }
 };
 
 export const Disabled = {
   render: (args: any) => <Textarea {...args} />,
   args: {
     ...Default.args,
-    disabled: true,
-  },
+    disabled: true
+  }
 };
 
 export const WithLabel = {
@@ -33,7 +33,7 @@ export const WithLabel = {
       <Textarea {...args} id="message" />
     </div>
   ),
-  args: { ...Default.args },
+  args: { ...Default.args }
 };
 
 export const WithText = {
@@ -41,12 +41,10 @@ export const WithText = {
     <div className="grid w-full gap-1.5">
       <Label htmlFor="message-2">Your Message</Label>
       <Textarea {...args} id="message-2" />
-      <p className="text-sm text-slate-500">
-        Your message will be copied to the support team.
-      </p>
+      <p className="text-sm text-slate-500">Your message will be copied to the support team.</p>
     </div>
   ),
-  args: { ...Default.args },
+  args: { ...Default.args }
 };
 
 export const WithButton = {
@@ -56,5 +54,5 @@ export const WithButton = {
       <Button>Send message</Button>
     </div>
   ),
-  args: { ...Default.args },
+  args: { ...Default.args }
 };

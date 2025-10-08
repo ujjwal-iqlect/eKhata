@@ -1,11 +1,11 @@
 // [build] library: 'shadcn'
-import { Checkbox } from "../components/ui/checkbox";
+import { Checkbox } from '../components/ui/checkbox';
 
 const meta = {
-  title: "ui/Checkbox",
+  title: 'ui/Checkbox',
   component: Checkbox,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -26,7 +26,7 @@ export const Base = {
       </div>
     </div>
   ),
-  args: {},
+  args: {}
 };
 export const Disabled = {
   render: (args: any) => (
@@ -41,6 +41,6 @@ export const Disabled = {
     </div>
   ),
   args: {
-    disabled: true,
-  },
+    disabled: true
+  }
 };

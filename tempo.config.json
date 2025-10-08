@@ -4,12 +4,7 @@
       "name": "Header 1",
       "preview": "Aa",
       "tag": "h1",
-      "classes": [
-        "text-4xl",
-        "font-extrabold",
-        "tracking-tight",
-        "lg:text-5xl"
-      ],
+      "classes": ["text-4xl", "font-extrabold", "tracking-tight", "lg:text-5xl"],
       "previewClasses": ["text-3xl", "font-extrabold", "tracking-tight"]
     },
     {

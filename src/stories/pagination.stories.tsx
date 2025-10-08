@@ -5,14 +5,14 @@ import {
   PaginationItem,
   PaginationLink,
   PaginationNext,
-  PaginationPrevious,
-} from "../components/ui/pagination";
+  PaginationPrevious
+} from '../components/ui/pagination';
 
 const meta = {
-  title: "ui/Pagination",
+  title: 'ui/Pagination',
   component: Pagination,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -41,5 +41,5 @@ export const Base = {
       </PaginationContent>
     </Pagination>
   ),
-  args: {},
+  args: {}
 };

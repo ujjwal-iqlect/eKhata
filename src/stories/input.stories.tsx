@@ -1,26 +1,26 @@
 // [build] library: 'shadcn'
-import { Button } from "../components/ui/button";
-import { Input } from "../components/ui/input";
-import { Label } from "../components/ui/label";
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Label } from '../components/ui/label';
 
 const meta = {
-  title: "ui/Input",
+  title: 'ui/Input',
   component: Input,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
 export const Default = {
   render: (args: any) => <Input {...args} />,
   args: {
-    type: "email",
-    placeholder: "Email",
-  },
+    type: 'email',
+    placeholder: 'Email'
+  }
 };
 export const Disabled = {
   render: (args: any) => <Input disabled {...args} />,
-  args: { ...Default.args },
+  args: { ...Default.args }
 };
 export const WithLabel = {
   render: (args: any) => (
@@ -29,7 +29,7 @@ export const WithLabel = {
       <Input {...args} id="email" />
     </div>
   ),
-  args: { ...Default.args },
+  args: { ...Default.args }
 };
 export const WithText = {
   render: (args: any) => (
@@ -39,7 +39,7 @@ export const WithText = {
       <p className="text-sm text-slate-500">Enter your email address.</p>
     </div>
   ),
-  args: { ...Default.args },
+  args: { ...Default.args }
 };
 export const WithButton = {
   render: (args: any) => (
@@ -48,5 +48,5 @@ export const WithButton = {
       <Button type="submit">Subscribe</Button>
     </div>
   ),
-  args: { ...Default.args },
+  args: { ...Default.args }
 };

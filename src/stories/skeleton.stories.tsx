@@ -1,12 +1,12 @@
 // [build] library: 'shadcn'
 
-import { Skeleton } from "../components/ui/skeleton";
+import { Skeleton } from '../components/ui/skeleton';
 
 const meta = {
-  title: "ui/Skeleton",
+  title: 'ui/Skeleton',
   component: Skeleton,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -22,5 +22,5 @@ export const Default = {
       </div>
     );
   },
-  args: {},
+  args: {}
 };

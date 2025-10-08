@@ -1,11 +1,11 @@
 // [build] library: 'shadcn'
-import { Avatar, AvatarFallback, AvatarImage } from "../components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from '../components/ui/avatar';
 
 const meta = {
-  title: "ui/Avatar",
+  title: 'ui/Avatar',
   component: Avatar,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 
 export default meta;
@@ -17,5 +17,5 @@ export const Base = {
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   ),
-  args: {},
+  args: {}
 };

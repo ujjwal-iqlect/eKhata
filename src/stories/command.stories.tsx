@@ -5,8 +5,8 @@ import {
   FaceIcon,
   GearIcon,
   PersonIcon,
-  RocketIcon,
-} from "@radix-ui/react-icons";
+  RocketIcon
+} from '@radix-ui/react-icons';
 
 import {
   Command,
@@ -16,14 +16,14 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-  CommandShortcut,
-} from "../components/ui/command";
+  CommandShortcut
+} from '../components/ui/command';
 
 const meta = {
-  title: "ui/Command",
+  title: 'ui/Command',
   component: Command,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -70,5 +70,5 @@ export const Base = {
       </Command>
     );
   },
-  args: {},
+  args: {}
 };

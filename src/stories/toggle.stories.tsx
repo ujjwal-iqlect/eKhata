@@ -1,12 +1,12 @@
 // [build] library: 'shadcn'
-import { FontItalicIcon, FontBoldIcon } from "@radix-ui/react-icons";
-import { Toggle } from "../components/ui/toggle";
+import { FontItalicIcon, FontBoldIcon } from '@radix-ui/react-icons';
+import { Toggle } from '../components/ui/toggle';
 
 const meta = {
-  title: "ui/Toggle",
+  title: 'ui/Toggle',
   component: Toggle,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -16,7 +16,7 @@ export const Default = {
       <FontBoldIcon className="h-4 w-4" />
     </Toggle>
   ),
-  args: {},
+  args: {}
 };
 
 export const Outline = {
@@ -25,7 +25,7 @@ export const Outline = {
       <FontItalicIcon className="h-4 w-4" />
     </Toggle>
   ),
-  args: {},
+  args: {}
 };
 
 export const WithText = {
@@ -35,7 +35,7 @@ export const WithText = {
       Italic
     </Toggle>
   ),
-  args: {},
+  args: {}
 };
 
 export const Small = {
@@ -44,7 +44,7 @@ export const Small = {
       <FontBoldIcon className="h-4 w-4" />
     </Toggle>
   ),
-  args: {},
+  args: {}
 };
 
 export const Large = {
@@ -53,7 +53,7 @@ export const Large = {
       <FontBoldIcon className="h-4 w-4" />
     </Toggle>
   ),
-  args: {},
+  args: {}
 };
 
 export const Destructive = {
@@ -63,6 +63,6 @@ export const Destructive = {
     </Toggle>
   ),
   args: {
-    variant: "destructive",
-  },
+    variant: 'destructive'
+  }
 };

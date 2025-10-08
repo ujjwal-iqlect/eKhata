@@ -1,17 +1,17 @@
-import { Card, CardContent } from "../components/ui/card";
+import { Card, CardContent } from '../components/ui/card';
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
-  CarouselPrevious,
-} from "../components/ui/carousel";
+  CarouselPrevious
+} from '../components/ui/carousel';
 
 const meta = {
-  title: "ui/Carousel",
+  title: 'ui/Carousel',
   component: Carousel,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -35,7 +35,7 @@ export const Base = {
       <CarouselNext />
     </Carousel>
   ),
-  args: {},
+  args: {}
 };
 
 export const Size = {
@@ -58,5 +58,5 @@ export const Size = {
       <CarouselNext />
     </Carousel>
   ),
-  args: {},
+  args: {}
 };

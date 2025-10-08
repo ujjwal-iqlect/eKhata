@@ -5,14 +5,14 @@ import {
   SheetDescription,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
-} from "../components/ui/sheet";
+  SheetTrigger
+} from '../components/ui/sheet';
 
 const meta = {
-  title: "ui/Sheet",
+  title: 'ui/Sheet',
   component: Sheet,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -25,8 +25,8 @@ export const Default = {
           <SheetHeader>
             <SheetTitle>Are you sure absolutely sure?</SheetTitle>
             <SheetDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
+              This action cannot be undone. This will permanently delete your account and remove
+              your data from our servers.
             </SheetDescription>
           </SheetHeader>
         </SheetContent>
@@ -34,8 +34,8 @@ export const Default = {
     );
   },
   args: {
-    side: "right",
-  },
+    side: 'right'
+  }
 };
 
 export const Left = {
@@ -47,8 +47,8 @@ export const Left = {
           <SheetHeader>
             <SheetTitle>Are you sure absolutely sure?</SheetTitle>
             <SheetDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
+              This action cannot be undone. This will permanently delete your account and remove
+              your data from our servers.
             </SheetDescription>
           </SheetHeader>
         </SheetContent>
@@ -56,8 +56,8 @@ export const Left = {
     );
   },
   args: {
-    side: "left",
-  },
+    side: 'left'
+  }
 };
 
 export const Top = {
@@ -69,8 +69,8 @@ export const Top = {
           <SheetHeader>
             <SheetTitle>Are you sure absolutely sure?</SheetTitle>
             <SheetDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
+              This action cannot be undone. This will permanently delete your account and remove
+              your data from our servers.
             </SheetDescription>
           </SheetHeader>
         </SheetContent>
@@ -78,8 +78,8 @@ export const Top = {
     );
   },
   args: {
-    side: "top",
-  },
+    side: 'top'
+  }
 };
 
 export const Bottom = {
@@ -91,8 +91,8 @@ export const Bottom = {
           <SheetHeader>
             <SheetTitle>Are you sure absolutely sure?</SheetTitle>
             <SheetDescription>
-              This action cannot be undone. This will permanently delete your
-              account and remove your data from our servers.
+              This action cannot be undone. This will permanently delete your account and remove
+              your data from our servers.
             </SheetDescription>
           </SheetHeader>
         </SheetContent>
@@ -100,6 +100,6 @@ export const Bottom = {
     );
   },
   args: {
-    side: "bottom",
-  },
+    side: 'bottom'
+  }
 };

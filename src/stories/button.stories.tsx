@@ -1,43 +1,43 @@
 // [build] library: 'shadcn'
-import { Loader2, Mail } from "lucide-react";
+import { Loader2, Mail } from 'lucide-react';
 
-import { Button } from "../components/ui/button";
+import { Button } from '../components/ui/button';
 
 const meta = {
-  title: "ui/Button",
+  title: 'ui/Button',
   component: Button,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
 export const Base = {
   render: (args: any) => <Button {...args}>Button</Button>,
-  args: {},
+  args: {}
 };
 export const Outline = {
   render: (args: any) => <Button {...args}>Button</Button>,
   args: {
-    variant: "outline",
-  },
+    variant: 'outline'
+  }
 };
 export const Ghost = {
   render: (args: any) => <Button {...args}>Button</Button>,
   args: {
-    variant: "ghost",
-  },
+    variant: 'ghost'
+  }
 };
 export const Secondary = {
   render: (args: any) => <Button {...args}>Button</Button>,
   args: {
-    variant: "secondary",
-  },
+    variant: 'secondary'
+  }
 };
 export const Link = {
   render: (args: any) => <Button {...args}>Button</Button>,
   args: {
-    variant: "link",
-  },
+    variant: 'link'
+  }
 };
 export const Loading = {
   render: (args: any) => (
@@ -47,8 +47,8 @@ export const Loading = {
     </Button>
   ),
   args: {
-    variant: "outline",
-  },
+    variant: 'outline'
+  }
 };
 export const WithIcon = {
   render: (args: any) => (
@@ -57,6 +57,6 @@ export const WithIcon = {
     </Button>
   ),
   args: {
-    variant: "secondary",
-  },
+    variant: 'secondary'
+  }
 };

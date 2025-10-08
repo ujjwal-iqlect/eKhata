@@ -7,14 +7,14 @@ import {
   SelectLabel,
   SelectSeparator,
   SelectTrigger,
-  SelectValue,
-} from "../components/ui/select";
+  SelectValue
+} from '../components/ui/select';
 
 const meta = {
-  title: "ui/Select",
+  title: 'ui/Select',
   component: Select,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -55,5 +55,5 @@ export const Base = {
       </SelectContent>
     </Select>
   ),
-  args: {},
+  args: {}
 };

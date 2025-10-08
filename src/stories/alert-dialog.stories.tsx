@@ -8,15 +8,15 @@ import {
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-  AlertDialogTrigger,
-} from "../components/ui/alert-dialog";
-import { Button } from "../components/ui/button";
+  AlertDialogTrigger
+} from '../components/ui/alert-dialog';
+import { Button } from '../components/ui/button';
 
 const meta = {
-  title: "ui/AlertDialog",
+  title: 'ui/AlertDialog',
   component: AlertDialog,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 
 export default meta;
@@ -31,8 +31,8 @@ export const Base = {
         <AlertDialogHeader>
           <AlertDialogTitle>Are you sure absolutely sure?</AlertDialogTitle>
           <AlertDialogDescription>
-            This action cannot be undone. This will permanently delete your
-            account and remove your data from our servers.
+            This action cannot be undone. This will permanently delete your account and remove your
+            data from our servers.
           </AlertDialogDescription>
         </AlertDialogHeader>
         <AlertDialogFooter>
@@ -42,5 +42,5 @@ export const Base = {
       </AlertDialogContent>
     </AlertDialog>
   ),
-  args: {},
+  args: {}
 };

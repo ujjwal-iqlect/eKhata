@@ -1,31 +1,31 @@
 // [build] library: 'shadcn'
 
-import { BellIcon, CheckIcon } from "@radix-ui/react-icons";
-import { Button } from "../components/ui/button";
+import { BellIcon, CheckIcon } from '@radix-ui/react-icons';
+import { Button } from '../components/ui/button';
 import {
   Card,
   CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
-} from "../components/ui/card";
-import { Switch } from "../components/ui/switch";
-import { Input } from "../components/ui/input";
-import { Label } from "../components/ui/label";
+  CardTitle
+} from '../components/ui/card';
+import { Switch } from '../components/ui/switch';
+import { Input } from '../components/ui/input';
+import { Label } from '../components/ui/label';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
-  SelectValue,
-} from "../components/ui/select";
+  SelectValue
+} from '../components/ui/select';
 
 const meta = {
-  title: "ui/Card",
+  title: 'ui/Card',
   component: Card,
-  tags: ["autodocs"],
-  argTypes: {},
+  tags: ['autodocs'],
+  argTypes: {}
 };
 export default meta;
 
@@ -35,9 +35,7 @@ export const Base = {
       <Card className="w-[350px]">
         <CardHeader>
           <CardTitle>Create project</CardTitle>
-          <CardDescription>
-            Deploy your new project in one-click.
-          </CardDescription>
+          <CardDescription>Deploy your new project in one-click.</CardDescription>
         </CardHeader>
         <CardContent>
           <form>
@@ -70,13 +68,13 @@ export const Base = {
       </Card>
     );
   },
-  args: {},
+  args: {}
 };
 
 export const Notifications = {
   render: () => {
     return (
-      <Card className={"w-[380px]"}>
+      <Card className={'w-[380px]'}>
         <CardHeader>
           <CardTitle>Notifications</CardTitle>
           <CardDescription>You have 3 unread messages.</CardDescription>
@@ -85,12 +83,8 @@ export const Notifications = {
           <div className=" flex items-center space-x-4 rounded-md border p-4">
             <BellIcon />
             <div className="flex-1 space-y-1">
-              <p className="text-sm font-medium leading-none">
-                Push Notifications
-              </p>
-              <p className="text-sm text-muted-foreground">
-                Send notifications to device.
-              </p>
+              <p className="text-sm font-medium leading-none">Push Notifications</p>
+              <p className="text-sm text-muted-foreground">Send notifications to device.</p>
             </div>
             <Switch />
           </div>
@@ -100,9 +94,7 @@ export const Notifications = {
           >
             <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
             <div className="space-y-1">
-              <p className="text-sm font-medium leading-none">
-                Your call has been confirmed.
-              </p>
+              <p className="text-sm font-medium leading-none">Your call has been confirmed.</p>
               <p className="text-sm text-muted-foreground">1 hour ago</p>
             </div>
           </div>
@@ -112,9 +104,7 @@ export const Notifications = {
           >
             <span className="flex h-2 w-2 translate-y-1 rounded-full bg-sky-500" />
             <div className="space-y-1">
-              <p className="text-sm font-medium leading-none">
-                You have a new message!
-              </p>
+              <p className="text-sm font-medium leading-none">You have a new message!</p>
               <p className="text-sm text-muted-foreground">1 hour ago</p>
             </div>
           </div>
@@ -140,7 +130,7 @@ export const Notifications = {
     );
   },
   args: {
-    mode: "single",
-    className: "rounded-md border",
-  },
+    mode: 'single',
+    className: 'rounded-md border'
+  }
 };
